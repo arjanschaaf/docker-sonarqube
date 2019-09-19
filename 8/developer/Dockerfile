@@ -1,6 +1,6 @@
 FROM openjdk:11-jre-slim
 
-ARG SONARQUBE_VERSION=8.0
+ARG SONARQUBE_VERSION=7.9.1
 ARG SONARQUBE_ZIP_SERVER=binaries.sonarsource.com
 ARG SONARQUBE_ZIP_URL=https://${SONARQUBE_ZIP_SERVER}/CommercialDistribution/sonarqube-developer/sonarqube-developer-${SONARQUBE_VERSION}.zip
 ARG SONARQUBE_ZIP_USERNAME
